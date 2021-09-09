@@ -1,0 +1,23 @@
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #292929;
+    --nav: #3d3d3d;
+    --select: #4f4f4f;
+}
+
+div.container {
+    width: 100vw;
+    overflow: hidden;
+}
+
+div.main {
+    background: var(--background);
+    height: 100vh;
+    width: 100vw;
+    padding: 25px;
+    transition: 0.2s margin;
+}
